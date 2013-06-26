@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/examen/build/source/aidl/debug" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/examen/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/examen/src/main/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/examen/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":examen" />
+        <option name="PROJECT_ABSOLUTE_PATH" value="$MODULE_DIR$" />
+        <option name="GRADLE_HOME_DIR_PATH" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/examen">
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/r/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/aidl/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/buildConfig/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/res/rs/debug" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/r/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/aidl/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/source/buildConfig/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/build/res/rs/test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/debug/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/assets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/jni" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/res" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/main/resources" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/aidl" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/assets" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/jni" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/rs" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/res" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/examen/src/instrumentTest/resources" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/apk" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/assets" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/classes" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/exploded-bundles" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/incremental" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/libs" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/manifests" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/symbols" />
+      <excludeFolder url="file://$MODULE_DIR$/examen/build/tmp" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android 4.2.2" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="android-support-v4" level="project" />
+  </component>
+</module>
+

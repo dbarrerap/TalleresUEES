@@ -1,0 +1,17 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1372258971000 1896 d4ed129e7230f68e0705c3dc0bfde891657980cb /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/values/values.xml
+1372210687000 1815 7de98be0dd4a60d67a2ada9e1d086d6e302fb45c /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/drawable-mdpi/ic_launcher.png
+1372253555000 5798 34409fada37dcf11748354ed903e633d908aa879 /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/layout/new_workshop.xml
+1372258971000 6068 e1f3cac5e7f3bd9c55705ea4edb173fbdceed6ec /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/layout/new_student.xml
+1372210687000 217 f02e000d05a079992d2dba18039216c1e6b8784f /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/values-v14/values.xml
+1372259102000 2569 bf3b2ae7c7d40d993806917e12f50aede5942375 /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/layout/browse_workshop.xml
+1372210687000 203 19aedb7cdc3386344e36087b035a0a6b2b91d4cd /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/values-v11/values.xml
+1372210687000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/menu/main.xml
+1372210687000 2673 f924ac7ef4bf410dfd8099ef0061b5acf6b9e92f /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/drawable-hdpi/ic_launcher.png
+1372210687000 125 fae9d1b71d520745438010c9ca7cde9c81dfefac /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/values-sw720dp-land/values.xml
+1372215497000 1729 257875bc5d2e5f47c18dd234b5c504968887a704 /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/layout/activity_main.xml
+1372215497000 50435 44a18243c6fc3f3f2be8e887c397a35d8abe9828 /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/drawable-xxhdpi/uees_logo_main.png
+1372210687000 3578 262e5f745c6c61ca74182b6fa4e9e5ecc5e26b9a /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/drawable-xhdpi/ic_launcher.png
+1372210687000 5381 77aec32a340291e5c94b7556357516a96162df1c /home/david/AndroidStudioProjects/examen/examen/build/res/all/debug/drawable-xxhdpi/ic_launcher.png

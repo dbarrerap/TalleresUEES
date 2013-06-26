@@ -1,0 +1,20 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1372210631000 2673 f924ac7ef4bf410dfd8099ef0061b5acf6b9e92f /home/david/AndroidStudioProjects/examen/examen/src/main/res/drawable-hdpi/ic_launcher.png
+1372210633000 211 4e1904afba59d31e5cd6133f6a4c360fa9a5913f /home/david/AndroidStudioProjects/examen/examen/src/main/res/values/dimens.xml
+1372210633000 244 045ff451db7cd8e61285502b8c9bbf7405f2078d /home/david/AndroidStudioProjects/examen/examen/src/main/res/menu/main.xml
+1372252003000 5798 34409fada37dcf11748354ed903e633d908aa879 /home/david/AndroidStudioProjects/examen/examen/src/main/res/layout/new_workshop.xml
+1372210631000 3578 262e5f745c6c61ca74182b6fa4e9e5ecc5e26b9a /home/david/AndroidStudioProjects/examen/examen/src/main/res/drawable-xhdpi/ic_launcher.png
+1372210633000 324 aa1f5f1723de9aee2669dc44a26fbc0ce776d35f /home/david/AndroidStudioProjects/examen/examen/src/main/res/values-v11/styles.xml
+1372210969000 1729 257875bc5d2e5f47c18dd234b5c504968887a704 /home/david/AndroidStudioProjects/examen/examen/src/main/res/layout/activity_main.xml
+1372210631000 5381 77aec32a340291e5c94b7556357516a96162df1c /home/david/AndroidStudioProjects/examen/examen/src/main/res/drawable-xxhdpi/ic_launcher.png
+1372257556000 1335 b47220be9a97487d65cc9f06841b759847fb8e83 /home/david/AndroidStudioProjects/examen/examen/src/main/res/values/strings.xml
+1372210631000 1815 7de98be0dd4a60d67a2ada9e1d086d6e302fb45c /home/david/AndroidStudioProjects/examen/examen/src/main/res/drawable-mdpi/ic_launcher.png
+1372210633000 680 c76f4caaa7a8dfe9727fa93001b3aee3b22d6716 /home/david/AndroidStudioProjects/examen/examen/src/main/res/values/styles.xml
+1372210633000 381 b129b276e01126de5b3b753572ac67cbfc19454c /home/david/AndroidStudioProjects/examen/examen/src/main/res/values-v14/styles.xml
+1372259069000 2569 bf3b2ae7c7d40d993806917e12f50aede5942375 /home/david/AndroidStudioProjects/examen/examen/src/main/res/layout/browse_workshop.xml
+1372210633000 181 84de2797380184d8b39af6f829afb092fb956173 /home/david/AndroidStudioProjects/examen/examen/src/main/res/values-sw600dp/dimens.xml
+1372208082000 50435 44a18243c6fc3f3f2be8e887c397a35d8abe9828 /home/david/AndroidStudioProjects/examen/examen/src/main/res/drawable-xxhdpi/uees_logo_main.png
+1372210633000 254 25b6404e44acb50c82590049639d4fb5fefbac8e /home/david/AndroidStudioProjects/examen/examen/src/main/res/values-sw720dp-land/dimens.xml
+1372257056000 6068 e1f3cac5e7f3bd9c55705ea4edb173fbdceed6ec /home/david/AndroidStudioProjects/examen/examen/src/main/res/layout/new_student.xml
