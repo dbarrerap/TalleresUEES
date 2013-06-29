@@ -1,6 +1,8 @@
 package org.dbarrera.examen;
 
+import android.content.Context;
 import android.util.Log;
+import android.widget.Toast;
 import org.apache.http.NameValuePair;
 import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
@@ -48,19 +50,18 @@ public class wsClient extends Thread {
         this.parametros.add(new BasicNameValuePair("horas",horas));
     }
 
-    @Override
-    public void run() {
+    public void run(Context c) {
         JSONObject json = JSONParser.getJSONFromUrl(url, parametros);
         try {
             if (json.getString("exito") != null){
                 Log.d(wsClient.class.getName(),"Success! Data has been saved.");
+                Toast.makeText(c,"Success! Data has been saved.", Toast.LENGTH_SHORT).show();
             } else {
                 Log.d(wsClient.class.getName(),"Error! Parsing could not be made.");
+                Toast.makeText(c, "Error! Parsing could not be made.", Toast.LENGTH_SHORT).show();
             }
         } catch (JSONException e) {
             e.printStackTrace();
-        } finally {
-            parametros = null;
         }
     }
 }

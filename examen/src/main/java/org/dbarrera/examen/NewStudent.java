@@ -56,6 +56,6 @@ public class NewStudent extends Activity implements View.OnClickListener {
     private void insertData(studentDetails stud) {
         wsClient wsc = new wsClient();
         wsc.setStudParam(stud.getName(), stud.getMatricula(), stud.getDireccion(), stud.getTelefono(), stud.getEmail(), stud.getCarrera(), stud.getYear(), stud.getCurso());
-        wsc.start();
+        wsc.run(this);
     }
 }

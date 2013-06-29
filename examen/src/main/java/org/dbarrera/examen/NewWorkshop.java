@@ -44,7 +44,7 @@ public class NewWorkshop extends Activity implements View.OnClickListener {
             String workshop_date = String.valueOf(works_date.getYear()) + "-" + String.valueOf(works_date.getMonth() + 1) + "-" + String.valueOf(works_date.getDayOfMonth());
             wsClient wsc = new wsClient();
             wsc.setWorkParam(works_name.getText().toString(), works_code.getText().toString(), works_credits.getText().toString(), works_teacher.getText().toString(), works_unit.getText().toString(), workshop_date, works_schedule.getText().toString(), works_hours.getText().toString());
-            wsc.start();
+            wsc.run(this);
         }
     }
 }
