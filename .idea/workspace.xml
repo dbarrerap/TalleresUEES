@@ -35,25 +35,14 @@
     </layouts>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4a31903-7204-4238-ac72-a6c2fd11563e" name="Default" comment="" />
+    <list default="true" id="b4a31903-7204-4238-ac72-a6c2fd11563e" name="Default" comment="Full Commit">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examen-examen.iml" afterPath="$PROJECT_DIR$/examen-examen.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examen.iml" afterPath="$PROJECT_DIR$/examen.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java" afterPath="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java" />
+    </list>
     <ignored path="examen.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/strings.xml" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372257505238" ignored="false" />
-    <file path="/Dummy.txt" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372267522941" ignored="false" />
-    <file path="/new_workshop.xml" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372248224271" ignored="false" />
-    <file path="$APPLICATION_HOME_DIR$/plugins/android/lib/android.jar!/org/jetbrains/android/android.xsd" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372211970568" ignored="false" />
-    <file path="/wsClient.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372260569961" ignored="false" />
-    <file path="/NewWorkshop.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372261682231" ignored="false" />
-    <file path="/MainActivity.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372215727727" ignored="false" />
-    <file path="/NewStudent.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372257118280" ignored="false" />
-    <file path="/BrowseWorkshop.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372263821940" ignored="false" />
-    <file path="/studentDetails.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372247041962" ignored="false" />
-    <file path="/new_student.xml" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372248489550" ignored="false" />
-    <file path="/DoPOST.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372255511062" ignored="false" />
-    <file path="/wDetails.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372250167333" ignored="false" />
-    <file path="/AndroidManifest.xml" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372251540462" ignored="false" />
-    <file path="/a.xml" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372257534698" ignored="false" />
-    <file path="/JSONParser.java" changelist="b4a31903-7204-4238-ac72-a6c2fd11563e" time="1372262994923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,10 +103,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="BrowseWorkshop.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/BrowseWorkshop.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="45" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="870" max-vertical-offset="1815">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="NewWorkshop.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewWorkshop.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="42" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
+            <state line="44" column="42" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="645" max-vertical-offset="825">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wsClient.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="35" selection-start="2802" selection-end="2802" vertical-scroll-proportion="0.65486723" vertical-offset="395" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
@@ -126,58 +133,7 @@
       <file leaf-file-name="JSONParser.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/JSONParser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="46" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_workshop.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/new_workshop.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="47" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsClient.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="2516" selection-end="2516" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrowseWorkshop.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/BrowseWorkshop.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/examen/build/res/all/debug/menu/main.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="browse_workshop.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/browse_workshop.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="6" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
+            <state line="33" column="69" selection-start="960" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="870">
               <folding />
             </state>
           </provider>
@@ -186,25 +142,7 @@
       <file leaf-file-name="NewStudent.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="32" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wDetails.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wDetails.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="37" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
+            <state line="58" column="20" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0" vertical-offset="855" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
@@ -226,6 +164,37 @@
       <MyDateState />
     </option>
   </component>
+  <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="examen" />
+              <option name="path" value="$PROJECT_DIR$/build.gradle" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="examen-examen" />
+                <option name="path" value="$PROJECT_DIR$/examen/build.gradle" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="examen" />
+                <option name="path" value="$PROJECT_DIR$/build.gradle" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -240,18 +209,17 @@
         <option value="$PROJECT_DIR$/examen/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/DoPOST.java" />
         <option value="$PROJECT_DIR$/examen/src/main/res/layout/browse_workshop.xml" />
-        <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java" />
         <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewWorkshop.java" />
         <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/JSONParser.java" />
         <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/BrowseWorkshop.java" />
+        <option value="$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1368" />
-    <option name="height" value="742" />
+    <option name="width" value="1366" />
+    <option name="height" value="741" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -279,6 +247,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -381,96 +351,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-xxhdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="examen" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -481,8 +361,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -492,10 +370,10 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="preferences.sourceCode.XML" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="emulator-5554" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Jelly_Bean" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Gingerbread" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -657,7 +535,8 @@
       <workItem from="1372210662094" duration="7169000" />
       <workItem from="1372246367184" duration="4237000" />
       <workItem from="1372251427065" duration="12081000" />
-      <workItem from="1372267120558" duration="658000" />
+      <workItem from="1372267120558" duration="1257000" />
+      <workItem from="1372381096942" duration="66000" />
     </task>
     <task id="LOCAL-00001" summary="Full Commit">
       <created>1372267545476</created>
@@ -667,35 +546,36 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24145000" />
+    <option name="totallyTimeSpent" value="24810000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1" y="27" width="1368" height="742" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3288364" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15833333" sideWeight="0.6728499" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17575757" sideWeight="0.6728499" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32715008" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260274" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3260135" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19242424" sideWeight="0.67116356" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19195752" sideWeight="0.6739865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15833333" sideWeight="0.6728499" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17575757" sideWeight="0.6728499" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -763,21 +643,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="5" selection-start="864" selection-end="864" vertical-scroll-proportion="0.60954064">
+        <state line="28" column="5" selection-start="864" selection-end="864" vertical-scroll-proportion="0.60954064" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="90" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0">
+        <state line="28" column="90" selection-start="1149" selection-end="1149" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/studentDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0">
+        <state line="26" column="5" selection-start="555" selection-end="555" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding>
             <element signature="method#setName#0;class#studentDetails#0" expanded="false" />
             <element signature="method#getName#0;class#studentDetails#0" expanded="false" />
@@ -800,107 +680,87 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/new_student.xml">
+      <provider editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="301" selection-end="301" vertical-scroll-proportion="-5.4" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="9" column="37" selection-start="301" selection-end="301" vertical-scroll-proportion="-5.4">
-          <folding>
-            <element signature="e#632#646#0" expanded="true" />
-            <element signature="e#1345#1365#0" expanded="true" />
-            <element signature="e#2055#2072#0" expanded="true" />
-            <element signature="e#2742#2761#0" expanded="true" />
-            <element signature="e#3459#3474#0" expanded="true" />
-            <element signature="e#4178#4195#0" expanded="true" />
-            <element signature="e#4814#4828#0" expanded="true" />
-            <element signature="e#5521#5539#0" expanded="true" />
-            <element signature="e#5970#5984#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="32" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/new_workshop.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="47" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewWorkshop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="42" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="35" column="32" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/os/Handler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.7580645" />
+        <state line="78" column="0" selection-start="3379" selection-end="3379" vertical-scroll-proportion="0.7580645" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/org/json/JSONObject.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="96" column="0" selection-start="4520" selection-end="4520" vertical-scroll-proportion="0.7580645" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/JSONParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="46" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="2516" selection-end="2516" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="96" column="0" selection-start="4520" selection-end="4520" vertical-scroll-proportion="0.7580645" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/browse_workshop.xml">
+      <provider editor-type-id="text-editor">
+        <state line="6" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
+      </provider>
       <provider selected="true" editor-type-id="android-designer">
         <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="6" column="8" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="37" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/BrowseWorkshop.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0">
+        <state line="68" column="37" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/examen/build/res/all/debug/menu/main.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0">
+        <state line="6" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.16574585" vertical-offset="0" max-vertical-offset="543" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/res/layout/new_workshop.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="47" selection-start="924" selection-end="924" vertical-scroll-proportion="0.027675277" vertical-offset="345" max-vertical-offset="2235" />
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewWorkshop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="42" selection-start="1643" selection-end="1643" vertical-scroll-proportion="0.0" vertical-offset="371" max-vertical-offset="750">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/NewStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="20" selection-start="2307" selection-end="2307" vertical-scroll-proportion="0.0" vertical-offset="541" max-vertical-offset="900">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/JSONParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="69" selection-start="960" selection-end="1017" vertical-scroll-proportion="0.0" vertical-offset="112" max-vertical-offset="870">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/BrowseWorkshop.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.0" vertical-offset="780" max-vertical-offset="1815">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examen/src/main/java/org/dbarrera/examen/wsClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="35" selection-start="2802" selection-end="2802" vertical-scroll-proportion="0.65486723" vertical-offset="395" max-vertical-offset="960">
           <folding />
         </state>
       </provider>

@@ -52,8 +52,7 @@ public class wsClient extends Thread {
     public void run() {
         JSONObject json = JSONParser.getJSONFromUrl(url, parametros);
         try {
-            JSONArray jsonArray = json.getJSONArray("exito");
-            if (jsonArray != null){
+            if (json.getString("exito") != null){
                 Log.d(wsClient.class.getName(),"Success! Data has been saved.");
             } else {
                 Log.d(wsClient.class.getName(),"Error! Parsing could not be made.");
