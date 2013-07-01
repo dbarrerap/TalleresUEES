@@ -20,7 +20,9 @@ public class NewWorkshop extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_workshop);
 
-        setupWidgets();
+        if (savedInstanceState == null){
+            setupWidgets();
+        }
     }
 
     private void setupWidgets() {
@@ -41,10 +43,15 @@ public class NewWorkshop extends Activity implements View.OnClickListener {
     @Override
     public void onClick(View view) {
         if (view.getId() == R.id.button_nw_save){
-            String workshop_date = String.valueOf(works_date.getYear()) + "-" + String.valueOf(works_date.getMonth() + 1) + "-" + String.valueOf(works_date.getDayOfMonth());
-            wsClient wsc = new wsClient();
+            String workshop_date = String.valueOf(works_date.getYear()) + "-" + checkDigit(works_date.getMonth() + 1) + "-" + checkDigit(works_date.getDayOfMonth());
+            wsClient wsc = new wsClient(this);
             wsc.setWorkParam(works_name.getText().toString(), works_code.getText().toString(), works_credits.getText().toString(), works_teacher.getText().toString(), works_unit.getText().toString(), workshop_date, works_schedule.getText().toString(), works_hours.getText().toString());
-            wsc.run(this);
+            wsc.run();
+            finish();
         }
+    }
+
+    private String checkDigit(int number){
+        return number<=9?"0"+number:String.valueOf(number);
     }
 }

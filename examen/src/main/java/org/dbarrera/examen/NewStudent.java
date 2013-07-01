@@ -19,8 +19,10 @@ public class NewStudent extends Activity implements View.OnClickListener {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.new_student);
+        if (savedInstanceState == null){
+            setupWidgets();
+        }
 
-        setupWidgets();
     }
 
     private void setupWidgets() {
@@ -54,8 +56,9 @@ public class NewStudent extends Activity implements View.OnClickListener {
     }
 
     private void insertData(studentDetails stud) {
-        wsClient wsc = new wsClient();
+        wsClient wsc = new wsClient(this);
         wsc.setStudParam(stud.getName(), stud.getMatricula(), stud.getDireccion(), stud.getTelefono(), stud.getEmail(), stud.getCarrera(), stud.getYear(), stud.getCurso());
-        wsc.run(this);
+        wsc.run();
+        recreate();
     }
 }

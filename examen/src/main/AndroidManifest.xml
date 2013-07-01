@@ -27,6 +27,7 @@
         <activity android:name=".NewWorkshop" android:label="@string/new_workshop"/>
         <activity android:name=".NewStudent" android:label="@string/new_student"/>
         <activity android:name=".BrowseWorkshop" android:label="@string/browse_workshop"/>
+        <activity android:name=".Brow" android:label="@string/browse_workshop"/>
     </application>
 
 </manifest>

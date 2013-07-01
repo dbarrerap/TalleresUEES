@@ -16,6 +16,13 @@ import java.util.List;
  * Created by david on 6/25/13.
  */
 public class wsClient extends Thread {
+
+    Context c;
+
+    wsClient(Context context){
+        this.c = context;
+    }
+
     private static final String url = "http://10.0.2.2/examen/index.php";
 
     private List<NameValuePair> parametros = null;
@@ -50,12 +57,13 @@ public class wsClient extends Thread {
         this.parametros.add(new BasicNameValuePair("horas",horas));
     }
 
-    public void run(Context c) {
+    public void run() {
         JSONObject json = JSONParser.getJSONFromUrl(url, parametros);
         try {
+            Log.d(wsClient.class.getName(),json.toString());
             if (json.getString("exito") != null){
                 Log.d(wsClient.class.getName(),"Success! Data has been saved.");
-                Toast.makeText(c,"Success! Data has been saved.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(c, "Success! Data has been saved.", Toast.LENGTH_SHORT).show();
             } else {
                 Log.d(wsClient.class.getName(),"Error! Parsing could not be made.");
                 Toast.makeText(c, "Error! Parsing could not be made.", Toast.LENGTH_SHORT).show();

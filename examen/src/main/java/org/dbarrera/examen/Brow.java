@@ -5,8 +5,10 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.util.Log;
-import android.view.View;
-import android.widget.*;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import android.widget.SimpleCursorAdapter;
+import android.widget.Toast;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -22,51 +24,33 @@ import org.apache.http.util.EntityUtils;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
- * Created by david on 6/25/13.
+ * Created by david on 6/30/13.
  */
-public class BrowseWorkshop extends Activity implements View.OnClickListener {
+public class Brow extends Activity {
 
-    TextView mCredits, mTeacher, mStartDate, mSchedule, mName, mNameSearch;
-    Button searchButton;
+    String mName, mTeacher;
+    ListView lv;
+    ArrayList<String> arrayList;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.browse_workshop);
-
+        setContentView(R.layout.activity_brow_lv);
         if (savedInstanceState == null){
             setupWidgets();
         }
+
     }
 
     private void setupWidgets() {
-
-        mNameSearch = (EditText)findViewById(R.id.et_w_nameSearch);
-
-        mName = (TextView)findViewById(R.id.tv_name);
-
-        mCredits = (TextView)findViewById(R.id.tv_credits);
-        mTeacher = (TextView)findViewById(R.id.tv_profesor);
-
-        mStartDate = (TextView)findViewById(R.id.tv_fecha_inicio);
-        mSchedule = (TextView)findViewById(R.id.tv_horario);
-
-        searchButton = (Button)findViewById(R.id.buttonSearch);
-        searchButton.setOnClickListener(this);
-
+        lv = (ListView)findViewById(R.id.listView);
+        populateLV();
     }
 
-    @Override
-    public void onClick(View view) {
-        switch (view.getId()){
-            case R.id.buttonSearch:
-                DoPOST mDoPost = new DoPOST(this, mNameSearch.getText().toString());
-                mDoPost.execute("");
-                searchButton.setEnabled(false);
-                break;
-        }
+    private void populateLV() {
+        DoPOST mDoPOST = new DoPOST(this);
+        mDoPOST.execute("");
     }
 
     public class DoPOST extends AsyncTask<String, Void, Boolean> {
@@ -75,8 +59,12 @@ public class BrowseWorkshop extends Activity implements View.OnClickListener {
         String workshopSearch = "";
 
         //Result
-        String wName, wCredits, wTeacher, wSchedule, wDate;
+        String wName, wTeacher;
         Exception ex = null;
+
+        DoPOST(Context context){
+            mContext = context;
+        }
 
         DoPOST(Context context, String stringToSearch){
             mContext = context;
@@ -87,8 +75,7 @@ public class BrowseWorkshop extends Activity implements View.OnClickListener {
         protected Boolean doInBackground(String... strings) {
             try {
                 ArrayList<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>();
-                nameValuePairs.add(new BasicNameValuePair("opcion","wToSearch"));
-                nameValuePairs.add(new BasicNameValuePair("wName", workshopSearch));
+                nameValuePairs.add(new BasicNameValuePair("opcion","wildSearch"));
 
                 HttpParams httpParams = new BasicHttpParams();
 
@@ -105,16 +92,10 @@ public class BrowseWorkshop extends Activity implements View.OnClickListener {
 
                 JSONObject jsonObject = new JSONObject(result);
 
-                System.out.println(result);
+                System.out.println(jsonObject.getString("curso"));
 
-                wName = jsonObject.getString("Nombre");
-
-                wCredits = jsonObject.getString("Creditos");
-                wTeacher = jsonObject.getString("Profesor");
-
-                wDate = jsonObject.getString("FechaInicio");
-                wSchedule = jsonObject.getString("Horario");
-
+//                wName = jsonObject.getString("Nombre");
+//                wTeacher = jsonObject.getString("Profesor");
             } catch (Exception e) {
                 Log.e(BrowseWorkshop.class.getName(), e.getMessage());
                 ex = e;
@@ -124,16 +105,9 @@ public class BrowseWorkshop extends Activity implements View.OnClickListener {
 
         @Override
         protected void onPostExecute(Boolean aBoolean) {
-            mName.setText(wName);
-            mCredits.setText(wCredits);
-            mTeacher.setText(wTeacher);
-            mStartDate.setText(wDate);
-            mSchedule.setText(wSchedule);
-
-            searchButton.setEnabled(true);
 
             if(ex != null){
-                Toast.makeText(mContext, ex.getMessage(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(mContext, ex.getMessage(), Toast.LENGTH_SHORT).show();
             }
         }
     }

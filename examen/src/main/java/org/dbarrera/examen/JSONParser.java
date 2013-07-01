@@ -2,10 +2,13 @@ package org.dbarrera.examen;
 
 import android.util.Log;
 import org.apache.http.*;
+import org.apache.http.client.HttpClient;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.params.BasicHttpParams;
+import org.apache.http.params.HttpConnectionParams;
 import org.apache.http.params.HttpParams;
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -25,7 +28,13 @@ public class JSONParser {
          * Crear conexion HTTP
          */
         InputStream inputStream = null;
-        DefaultHttpClient httpClient = new DefaultHttpClient();
+
+        HttpParams httpParams = new BasicHttpParams();
+
+        HttpConnectionParams.setConnectionTimeout(httpParams, 15000);
+        HttpConnectionParams.setSoTimeout(httpParams, 15000);
+
+        HttpClient httpClient = new DefaultHttpClient(httpParams);
         HttpPost httpPost = new HttpPost(url);
 
         Log.d(JSONParser.class.getCanonicalName(),url + " " + parametros.toString());

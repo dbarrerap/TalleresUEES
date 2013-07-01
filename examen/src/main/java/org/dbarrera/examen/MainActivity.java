@@ -36,7 +36,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 startActivity(iNewWorkshop);
                 break;
             case R.id.browse_workshop:
-                Intent iBrowseWorkshop = new Intent(this, BrowseWorkshop.class);
+                //Intent iBrowseWorkshop = new Intent(this, BrowseWorkshop.class);
+                Intent iBrowseWorkshop = new Intent(this, Brow.class);
                 startActivity(iBrowseWorkshop);
                 break;
             case R.id.new_student:
